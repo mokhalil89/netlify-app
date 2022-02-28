@@ -35,6 +35,10 @@ npx cypress run --browser {browser name}
 ````
 
 ├── cypress
+|   |
+|   |
+|   ├── actions
+|   |   └── e2e-actions.js
 │   ├── fixtures
 │   │   └── elements.js
 |   |   └── testData.js
