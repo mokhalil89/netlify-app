@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://mystifying-beaver-ee03b5.netlify.app/",
+  "watchForFileChanges": false,
+  "chromeWebSecurity": false,
+  "screenshotOnRunFailure": true,
+  "projectId": "vy5gmm",
+  "defalutTimeout": 5000,
+  "pageLoadTimeout": 10000
+}

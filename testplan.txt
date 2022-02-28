@@ -1,0 +1,35 @@
+//positive;
+
+01Testcase (search filter)
+#.user go to the application
+#.user enter text in filter textfield 
+#.user validate the number of existing rows against the length of the array
+#.user validate some names against all names exist in the array
+#.user validate some complexity against all values exist in the array
+
+02TestCase(sorting by name)
+#.user go to the application
+#.user select name from the dropdown
+#.user validate the number of existing rows against the length of the array
+#.user validate some names against all names exist in the array
+
+03TestCase(sorting by complexity)
+#.user go to the application
+#.user select complexity from the dropdown
+#.user validate the number of existing rows against the length of the array
+#.user validate some complexity against all values exist in the array
+
+04TestCase(sorting and complexity)
+#.user go to the application
+#.user enter text in filter textfield
+#.user select name from the dropdown
+#.user validate the number of existing rows against the length of the array
+#.user validate some names against all names exist in the array
+#.user validate some complexity against all values exist in the array
+
+//negative;
+05TestCase (search invalid filter);
+#.user go to the application
+#.user enter invalid text
+#.user validate that there are no data exist in the table
+

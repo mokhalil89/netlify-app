@@ -1,0 +1,23 @@
+{
+  "name": "EclecticIQ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:headless": "cypress run --headless --record --key 5840d7f8-eb73-489c-a0b3-152bfada13aa",
+    "test": "cypress open",
+    "cy:run:chrome": "cypress run --browser chrome --record --key 5840d7f8-eb73-489c-a0b3-152bfada13aa",
+    "cy:run:edge": "cypress run --browser edge",
+    "cy:run:electron": "cypress run --browser electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.0",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "cypress-wait-until": "^1.7.2"
+  }
+}
