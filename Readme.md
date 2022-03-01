@@ -1,6 +1,6 @@
-## __Technical Assignment For [EclecticIQ - Cyber Threat Intelligence](https://www.eclecticiq.com/)__
+## __Technical Assignment For Sr QA Engineer__
 
-# Testing [EclecticIQ App](https://mystifying-beaver-ee03b5.netlify.app/ ) using Cypress
+# Testing [Netlify App](https://mystifying-beaver-ee03b5.netlify.app/ ) using Cypress
 
 
 
